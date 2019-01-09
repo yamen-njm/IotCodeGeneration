@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: iotCodeGen
+Bundle-SymbolicName: iotCodeGen
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: IotModel;bundle-version="0.1.0",
+ com.google.guava,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.xtend.lib,
+ org.eclipse.xtend.lib.macro
+Import-Package: org.eclipse.emf.ecore.xmi.impl
+Export-Package: fr.univnantes.alma.iot.codegen

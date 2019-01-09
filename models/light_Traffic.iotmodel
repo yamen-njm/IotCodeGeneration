@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iotModel:Network xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:iotModel="http://www.example.org/iotModel">
+  <measure name="light" type="string"/>
+  <instrument name="light_inst">
+    <interet name="Street">
+      <features name="south" measure="//@measure.0"/>
+      <features name="east" measure="//@measure.0"/>
+      <features name="north" measure="//@measure.0"/>
+      <features name="west" measure="//@measure.0"/>
+    </interet>
+  </instrument>
+  <measurand name="Traffic"/>
+  <device name="light_device" instrument="//@instrument.0"/>
+  <brokerconf server="m15.cloudmqtt.com" user="senfdtah" port="18724" password="QFMngZSY4SL1" connectionLimit="15" name="Mqtt"/>
+</iotModel:Network>
